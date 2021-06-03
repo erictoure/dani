@@ -1,3 +1,5 @@
-FROM http
+FROM centos
+
+RUN yum update -y
 
 
